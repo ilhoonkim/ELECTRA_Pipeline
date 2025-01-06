@@ -28,3 +28,7 @@ class cls_pipeline:
         
         return pred, ratio
         
+
+if __name__ == '__main__':
+    result = cls_pipeline.predict("안녕하세요")
+    print(result)
